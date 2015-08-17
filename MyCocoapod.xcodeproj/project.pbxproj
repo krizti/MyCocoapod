@@ -14,7 +14,7 @@
 		A600EDC31B8185CD00E02803 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A600EDC21B8185CD00E02803 /* Images.xcassets */; };
 		A600EDC61B8185CD00E02803 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A600EDC41B8185CD00E02803 /* LaunchScreen.xib */; };
 		A600EDD21B8185CD00E02803 /* MyCocoapodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A600EDD11B8185CD00E02803 /* MyCocoapodTests.m */; };
-		A600EDDF1B82572F00E02803 /* MyLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = A600EDDE1B82572F00E02803 /* MyLibraryController.m */; };
+		A600EDE21B825EDB00E02803 /* MyLibraryController.m in Sources */ = {isa = PBXBuildFile; fileRef = A600EDE11B825EDB00E02803 /* MyLibraryController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		A600EDCB1B8185CD00E02803 /* MyCocoapodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCocoapodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A600EDD01B8185CD00E02803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A600EDD11B8185CD00E02803 /* MyCocoapodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCocoapodTests.m; sourceTree = "<group>"; };
-		A600EDDD1B82572F00E02803 /* MyLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLibraryController.h; sourceTree = "<group>"; };
-		A600EDDE1B82572F00E02803 /* MyLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLibraryController.m; sourceTree = "<group>"; };
+		A600EDE01B825EDB00E02803 /* MyLibraryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyLibraryController.h; path = Classes/MyLibraryController.h; sourceTree = "<group>"; };
+		A600EDE11B825EDB00E02803 /* MyLibraryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyLibraryController.m; path = Classes/MyLibraryController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +126,8 @@
 		A600EDDC1B8255DA00E02803 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A600EDDD1B82572F00E02803 /* MyLibraryController.h */,
-				A600EDDE1B82572F00E02803 /* MyLibraryController.m */,
+				A600EDE01B825EDB00E02803 /* MyLibraryController.h */,
+				A600EDE11B825EDB00E02803 /* MyLibraryController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -235,7 +235,7 @@
 				A600EDBE1B8185CD00E02803 /* ViewController.m in Sources */,
 				A600EDBB1B8185CD00E02803 /* AppDelegate.m in Sources */,
 				A600EDB81B8185CD00E02803 /* main.m in Sources */,
-				A600EDDF1B82572F00E02803 /* MyLibraryController.m in Sources */,
+				A600EDE21B825EDB00E02803 /* MyLibraryController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
