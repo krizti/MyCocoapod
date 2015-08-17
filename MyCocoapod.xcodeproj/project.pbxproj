@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A600EDB81B8185CD00E02803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A600EDB71B8185CD00E02803 /* main.m */; };
+		A600EDBB1B8185CD00E02803 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A600EDBA1B8185CD00E02803 /* AppDelegate.m */; };
+		A600EDBE1B8185CD00E02803 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A600EDBD1B8185CD00E02803 /* ViewController.m */; };
+		A600EDC11B8185CD00E02803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A600EDBF1B8185CD00E02803 /* Main.storyboard */; };
+		A600EDC31B8185CD00E02803 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A600EDC21B8185CD00E02803 /* Images.xcassets */; };
+		A600EDC61B8185CD00E02803 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A600EDC41B8185CD00E02803 /* LaunchScreen.xib */; };
+		A600EDD21B8185CD00E02803 /* MyCocoapodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A600EDD11B8185CD00E02803 /* MyCocoapodTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A600EDCC1B8185CD00E02803 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A600EDAA1B8185CD00E02803 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A600EDB11B8185CD00E02803;
+			remoteInfo = MyCocoapod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A600EDB21B8185CD00E02803 /* MyCocoapod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCocoapod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A600EDB61B8185CD00E02803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A600EDB71B8185CD00E02803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A600EDB91B8185CD00E02803 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A600EDBA1B8185CD00E02803 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A600EDBC1B8185CD00E02803 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A600EDBD1B8185CD00E02803 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A600EDC01B8185CD00E02803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A600EDC21B8185CD00E02803 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A600EDC51B8185CD00E02803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A600EDCB1B8185CD00E02803 /* MyCocoapodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCocoapodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A600EDD01B8185CD00E02803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A600EDD11B8185CD00E02803 /* MyCocoapodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCocoapodTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A600EDAF1B8185CD00E02803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A600EDC81B8185CD00E02803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A600EDA91B8185CD00E02803 = {
+			isa = PBXGroup;
+			children = (
+				A600EDB41B8185CD00E02803 /* MyCocoapod */,
+				A600EDCE1B8185CD00E02803 /* MyCocoapodTests */,
+				A600EDB31B8185CD00E02803 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A600EDB31B8185CD00E02803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A600EDB21B8185CD00E02803 /* MyCocoapod.app */,
+				A600EDCB1B8185CD00E02803 /* MyCocoapodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A600EDB41B8185CD00E02803 /* MyCocoapod */ = {
+			isa = PBXGroup;
+			children = (
+				A600EDB91B8185CD00E02803 /* AppDelegate.h */,
+				A600EDBA1B8185CD00E02803 /* AppDelegate.m */,
+				A600EDBC1B8185CD00E02803 /* ViewController.h */,
+				A600EDBD1B8185CD00E02803 /* ViewController.m */,
+				A600EDBF1B8185CD00E02803 /* Main.storyboard */,
+				A600EDC21B8185CD00E02803 /* Images.xcassets */,
+				A600EDC41B8185CD00E02803 /* LaunchScreen.xib */,
+				A600EDB51B8185CD00E02803 /* Supporting Files */,
+			);
+			path = MyCocoapod;
+			sourceTree = "<group>";
+		};
+		A600EDB51B8185CD00E02803 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A600EDB61B8185CD00E02803 /* Info.plist */,
+				A600EDB71B8185CD00E02803 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A600EDCE1B8185CD00E02803 /* MyCocoapodTests */ = {
+			isa = PBXGroup;
+			children = (
+				A600EDD11B8185CD00E02803 /* MyCocoapodTests.m */,
+				A600EDCF1B8185CD00E02803 /* Supporting Files */,
+			);
+			path = MyCocoapodTests;
+			sourceTree = "<group>";
+		};
+		A600EDCF1B8185CD00E02803 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A600EDD01B8185CD00E02803 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A600EDB11B8185CD00E02803 /* MyCocoapod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A600EDD51B8185CD00E02803 /* Build configuration list for PBXNativeTarget "MyCocoapod" */;
+			buildPhases = (
+				A600EDAE1B8185CD00E02803 /* Sources */,
+				A600EDAF1B8185CD00E02803 /* Frameworks */,
+				A600EDB01B8185CD00E02803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyCocoapod;
+			productName = MyCocoapod;
+			productReference = A600EDB21B8185CD00E02803 /* MyCocoapod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A600EDCA1B8185CD00E02803 /* MyCocoapodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A600EDD81B8185CD00E02803 /* Build configuration list for PBXNativeTarget "MyCocoapodTests" */;
+			buildPhases = (
+				A600EDC71B8185CD00E02803 /* Sources */,
+				A600EDC81B8185CD00E02803 /* Frameworks */,
+				A600EDC91B8185CD00E02803 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A600EDCD1B8185CD00E02803 /* PBXTargetDependency */,
+			);
+			name = MyCocoapodTests;
+			productName = MyCocoapodTests;
+			productReference = A600EDCB1B8185CD00E02803 /* MyCocoapodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A600EDAA1B8185CD00E02803 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ITechRoof;
+				TargetAttributes = {
+					A600EDB11B8185CD00E02803 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A600EDCA1B8185CD00E02803 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A600EDB11B8185CD00E02803;
+					};
+				};
+			};
+			buildConfigurationList = A600EDAD1B8185CD00E02803 /* Build configuration list for PBXProject "MyCocoapod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A600EDA91B8185CD00E02803;
+			productRefGroup = A600EDB31B8185CD00E02803 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A600EDB11B8185CD00E02803 /* MyCocoapod */,
+				A600EDCA1B8185CD00E02803 /* MyCocoapodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A600EDB01B8185CD00E02803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A600EDC11B8185CD00E02803 /* Main.storyboard in Resources */,
+				A600EDC61B8185CD00E02803 /* LaunchScreen.xib in Resources */,
+				A600EDC31B8185CD00E02803 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A600EDC91B8185CD00E02803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A600EDAE1B8185CD00E02803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A600EDBE1B8185CD00E02803 /* ViewController.m in Sources */,
+				A600EDBB1B8185CD00E02803 /* AppDelegate.m in Sources */,
+				A600EDB81B8185CD00E02803 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A600EDC71B8185CD00E02803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A600EDD21B8185CD00E02803 /* MyCocoapodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A600EDCD1B8185CD00E02803 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A600EDB11B8185CD00E02803 /* MyCocoapod */;
+			targetProxy = A600EDCC1B8185CD00E02803 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A600EDBF1B8185CD00E02803 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A600EDC01B8185CD00E02803 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A600EDC41B8185CD00E02803 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A600EDC51B8185CD00E02803 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A600EDD31B8185CD00E02803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A600EDD41B8185CD00E02803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A600EDD61B8185CD00E02803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCocoapod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A600EDD71B8185CD00E02803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyCocoapod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A600EDD91B8185CD00E02803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyCocoapodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCocoapod.app/MyCocoapod";
+			};
+			name = Debug;
+		};
+		A600EDDA1B8185CD00E02803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyCocoapodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyCocoapod.app/MyCocoapod";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A600EDAD1B8185CD00E02803 /* Build configuration list for PBXProject "MyCocoapod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A600EDD31B8185CD00E02803 /* Debug */,
+				A600EDD41B8185CD00E02803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A600EDD51B8185CD00E02803 /* Build configuration list for PBXNativeTarget "MyCocoapod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A600EDD61B8185CD00E02803 /* Debug */,
+				A600EDD71B8185CD00E02803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A600EDD81B8185CD00E02803 /* Build configuration list for PBXNativeTarget "MyCocoapodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A600EDD91B8185CD00E02803 /* Debug */,
+				A600EDDA1B8185CD00E02803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A600EDAA1B8185CD00E02803 /* Project object */;
+}
