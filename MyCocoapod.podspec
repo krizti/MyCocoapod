@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Kiruthika' => 'kirthi.shalom@gmail.com' }
   s.platform     = :ios, '7.0'
   s.source       = { :git => 'https://github.com/krizti/MyCocoapod.git', :tag => s.version.to_s }
-  s.source_files = 'classes/*.{h,m}'
+  s.source_files = 'Classes/*.{h,m}'
   s.frameworks   = 'UIKit'
   s.requires_arc = true
 
